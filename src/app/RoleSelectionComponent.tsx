@@ -9,7 +9,6 @@ export default function RoleSelectionComponent() {
   };
 
   return (
-
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-6 max-w-[calc(100%-55px)] border border-radius-lg rounded-2xl ml-7">
 
       <h1 className="text-3xl font-bold mb-8 text-gray-100">Select Your Role</h1>
