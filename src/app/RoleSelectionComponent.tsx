@@ -18,7 +18,7 @@ export default function RoleSelectionComponent() {
         <div className="w-[340px] h-[450px] bg-gray-800 hover:bg-gray-700 transition-colors rounded-xl shadow-xl overflow-hidden">
           <div className="p-8 h-full flex flex-col justify-between">
             <div>
-              <h2 className="text-3xl font-bold text-gray-100 mb-3">Teacher</h2>
+              <h2 className="text-3xl font-bold text-gray-100 mb-3">Educator</h2>
               <p className="text-xl text-gray-400 mb-6">Select if you're an educator</p>
               <ul className="list-disc list-inside text-lg text-gray-300 mb-6">
                 <li>Create and manage courses</li>

@@ -10,8 +10,6 @@ import SDGOverlay from "./globeBg"
 import Footer from "./footer/page"
 
 
-
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black to-black flex flex-col items-center p-4">
@@ -20,10 +18,8 @@ export default function Home() {
         <WavyBackgroundDemo />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
 
-          <TextAnimate text="Sustainable Development Goals" type="fadeInUp" />
-          <TextAnimate text="Working together for a better future through global actions and shared solutions.
-                      This platform provides valuable resources to learn about the Sustainable Development Goals.
-                      Explore insights, tools, and opportunities to contribute to a sustainable world." type="whipIn"
+          <TextAnimate text="EduRise" type="fadeInUp" />
+          <TextAnimate text="EduRise is a platform aimed at bridging the education gap for underprivileged students. It offers free, high-quality tutorials in science, math, and skill development, making learning accessible to all. At the same time, it empowers teachers to share knowledge and earn by creating engaging content. Join us in reshaping education for a brighter future!" type="whipIn"
           />
 
         </div>
@@ -40,11 +36,11 @@ export default function Home() {
             <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:20px_20px]"></div>
             <div className="relative p-8 sm:p-10">
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-100 tracking-tight">SDG Education on Our Platform</h2>
+                <h2 className="text-3xl font-bold text-gray-100 tracking-tight">Smart Education on Our Platform</h2>
                 <BookOpen className="w-10 h-10 text-gray-300" />
               </div>
               <p className="text-lg leading-relaxed text-gray-300 mb-6">
-                Our platform is dedicated to providing education on the Sustainable Development Goals (SDGs), empowering learners to understand and contribute to a sustainable future. Through interactive content, expert insights, and real-world case studies, we make the 17 SDGs accessible and engaging for individuals of all ages and backgrounds.
+              Our platform is focused on bridging the education gap for underprivileged students. We offer free, high-quality tutorials in subjects like science, math, and skill development, making learning accessible to everyone. Additionally, we empower teachers to share their expertise and earn by creating engaging content. Together, let's reshape education for a brighter future!
               </p>
               <p className="text-lg leading-relaxed text-gray-300">
                 Our aim is to inspire action, foster critical thinking, and cultivate global citizenship, helping participants recognize their role in addressing issues like poverty, climate change, gender equality, and quality education. By integrating the SDGs into our curriculum, we equip learners with the knowledge and skills necessary to drive meaningful change in their communities and beyond.
